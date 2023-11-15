@@ -50,7 +50,6 @@ body{
 }
 /*------------landing area---------------*/
 .container{
-    background: white url(img/gettyimages-1435661969-612x612.jpg) no-repeat scroll center;
     height:100vh;
     background-size: cover;
     color:white;
