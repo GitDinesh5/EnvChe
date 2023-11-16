@@ -76,3 +76,31 @@ body{
     border-radius:5px;
 }
 /*----------------Pic Used in Resources--------*/
+/* Styles for mobile devices (up to 767px width) */
+        @media only screen and (max-width: 767px) {
+            body {
+                background-color: darkcyan; /* Change background color for mobile */
+            }
+        }
+
+        /* Styles for tablets (768px to 991px width) */
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            body {
+                font-size: 18px; /* Increase font size for tablets */
+            }
+        }
+
+        /* Styles for laptops (992px to 1199px width) */
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            body {
+                line-height: 1.6; /* Adjust line height for laptops */
+            }
+        }
+
+        /* Styles for wide screens (1200px and above) */
+        @media only screen and (min-width: 1200px) {
+            body {
+                max-width: 1200px; /* Set a maximum width for wide screens */
+                margin: 0 auto; /* Center the content on wide screens */
+            }
+        }
